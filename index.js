@@ -48,9 +48,10 @@ const loadQuestion = () => {
     Option[0].previousElementSibling.textContent = data.a;
 }
 
-
+let audio = new Audio("a1.mp3");
 let btn = document.querySelector(".btn");
 btn.addEventListener("click", () => {
+    audio.play();
     const data = question[index];
     const ans = getAnswer();
     if (ans == data.correct) {
