@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    background-color: rgb(177, 248, 224);
+}
+
+nav {
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+nav .logo {
+    margin-left: 1.8rem;
+}
+
+nav ul {
+    list-style: none;
+    margin-right: 1.8rem;
+    gap: 1rem;
+}
+
+nav img {
+    width: 4.7rem;
+    margin-right: 1rem;
+    padding: 0.5rem;
+}
+
+main {
+    height: 88.6vh;
+    width: 100%;
+}
+
+.box {
+    width: 50%;
+    background: antiquewhite;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+    border-radius: 5px;
+    padding: 0 2rem;
+}
+
+.box h3 {
+    margin-top: 3rem;
+    background-color: azure;
+    padding: 1rem 1rem;
+    border-radius: 0.7rem;
+}
+
+.row {
+    width: 70%;
+    margin-top: 1rem;
+    padding: 0.5rem 2rem;
+    background-color: white;
+    color: black;
+    border-radius: 0.7rem;
+}
+
+.rowCollection {
+    margin: 4rem auto;
+}
+
+.row input {
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.btn {
+    margin-top: 4rem;
+    width: 30%;
+    height: 3rem;
+    text-align: center;
+    border-radius: 0.7rem;
+    border: none;
+    outline: none;
+    background-color: rgb(58, 167, 213);
+    color: white;
+    font-size: 1.2rem;
+    transition: 0.4s;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn:hover{
+    background-color: green;
+    color: white;
+    transition: 0.4s;
+}
