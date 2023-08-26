@@ -50,7 +50,7 @@ main {
     box-shadow: 1px 1px 5px gray;
     margin: auto;
     border-radius: 5px;
-    padding: 0 2rem;
+    padding: 1rem 2rem;
 }
 
 .box h3 {
@@ -67,6 +67,7 @@ main {
     background-color: white;
     color: black;
     border-radius: 0.7rem;
+    text-transform: capitalize;
 }
 
 .rowCollection {
@@ -94,8 +95,28 @@ main {
     width: 100%;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: green;
     color: white;
     transition: 0.4s;
+}
+
+
+@media (max-width:700px) {
+    .box {
+        max-width: 90%;
+        width: 90%;
+        height: 80vh;
+
+    }
+
+    nav .logo {
+        margin-left: 0.5rem;
+    }
+
+    nav img {
+        width: 4rem;
+        margin-right: 0.5rem;
+        padding: 0.5rem;
+    }
 }
